@@ -1,0 +1,319 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+	margin: 0;
+	padding: 0;
+}
+*{box-sizing: border-box;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+	color: #232323;
+}
+li{
+	list-style-type: none; 
+}
+body{
+	font-family: '微软雅黑';
+}
+/*以上是公用的css代码*/
+.body{
+	width: 100%;
+}
+.bg_img{
+	width: 100%;
+	display: block;
+}
+.content{
+	background: url('../images/bg3.jpg');
+	width: 100%;
+	background-repeat:no-repeat;
+}
+/* 参加活动 */
+.btn{
+	position: relative;
+	width: 70%;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	margin-bottom: 23px;
+	
+
+}
+.btn_img{
+	width: 100%;
+
+	/* margin: 0 auto; */
+	
+}
+.part_in{
+	position: absolute;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+}
+.font{
+	position: relative;
+	width: 70%;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+}
+.font_img{
+	width: 100%;
+}
+/* 活动简介 */
+.si_desc{
+	width: 75%;
+	margin: 0 auto;
+	color: #fff;
+
+
+}
+.cen{
+	margin: 0 auto;
+}
+.si_desc span{
+	/* text-align: center; */
+	font-size: 14px;
+	display: block;
+	margin-left: 15%;
+	/* line-height: 16px; */
+}	
+
+/* 活动详情 */
+.detail{
+	line-height: 56px;
+	display: block;
+	font-size: 14px;
+	margin-left: 12%;
+	color: #fff;
+}
+.tit{
+	display: flex;
+	color: #fff;
+	/* display: block; */
+	font-size: 12px;
+	margin-left: 12%;
+	line-height: 20px;
+
+
+}
+.theme{
+	display: inline-block;
+
+	width: 55px;
+	white-space: nowrap;
+}
+.con{
+	margin-left: 4px;
+}
+.con .fx{
+	display: inline-block;
+	
+}
+.du{
+	display:inline-block;
+
+	width: 60%;
+}
+.take{
+	color: #02D9E2;
+}
+.guter{
+	margin-bottom: 12px;
+}
+.last{
+	margin-bottom: 24px;
+}
+.font_img{
+	margin-bottom: 20px;
+}
+.logo{	
+	width: 100%;
+	padding-bottom: 20px;
+	text-align: center;
+	    padding-top: 148px;
+}
+.logo img{
+display: inline;
+vertical-align: top;
+}
+.src1{
+width: 19%
+}
+.src2{
+	width: 25%
+	
+}
+.src3{
+	width: 30%;
+	
+}
+.mao{
+	display: inline-block;
+	margin-left: 5px;
+}
+/* 参加活动的css */
+.part{
+	position: absolute;
+	top: 292px;
+	width: 85%;
+	background: #F6DBE0;
+	left: 50%;
+	transform: translateX(-50%);
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+	line-height: 40px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+.in{
+	margin-left: 2%;
+	margin-right: 3%;
+	font-size: 14px;
+	height: 40px;
+	vertical-align: middle;
+	margin-bottom: 3px;
+}
+.al{
+	display: inline-block;
+	width: 77px;
+	padding-right: 2%;
+	text-align: right;
+}
+input{
+	border-radius: 4px;
+	width: 60%;
+	height: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+        vertical-align:middle;
+}
+/* 确认报名 */
+.sub{
+	padding-left: 0;
+	background: #F11157;
+	width: 60%;
+	text-align: center;
+	margin-left: 50%;
+	height: 45px;
+	line-height: 45px;
+	transform: translateX(-50%);
+	border-radius: 21px;
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+
+}
+input{
+	vertical-align: middle;
+}
+.fillcontent{
+	position: absolute;
+	top:266px;
+	width: 83px;
+	left: 7.5%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: #F6DBE0;
+	padding-left: 2%;
+	font-size: 18px;
+	padding-top: 5px;
+}
+.slid{
+	display: block;
+	position: absolute;
+	top: 266px;
+	left: calc(7% + 83px);
+	/* visibility: hidden; */
+	border-top:28px solid transparent;
+	border-left: 10px solid #F6DBE0;
+
+}
+.shadow_ray{
+	z-index: 889;
+	display: none;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	opacity: 0.7;
+}
+.state{
+	z-index: 889;
+	display: none;
+	position: absolute;
+	margin-left: 10%;
+	top: 62%;
+	width: 80%;
+}
+.close{
+	z-index: 889;
+	display: none;
+	position: absolute;
+	top:63%;
+	right: 21%;
+	width: 5%;
+}
+.info{
+	z-index: 889;
+	display: none;
+	position: absolute;
+	top: 63%;
+	width: 54%;
+	font-size: 15px;
+	left: 24%;
+	margin-top: 1rem;
+	/* text-align: center; */
+}
+input[type="radio"]{
+	width: 6%;
+	margin-right: 3%;
+}
+
+/* 设置弹窗的字体 */
+.confir span{
+	color:#E35351;
+}
+.selectBox{
+	display: inline-block;
+}
+select{
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	    padding-left: 10px;
+}
+
+.tips{width: 80%;
+	min-height: 25px;
+	word-wrap: break-word;
+	word-break: break-all;
+	padding: 10px 0;
+	background: rgba(0,0,0,.5);
+	top: 20%;left: 10%;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	z-index: 1000;
+	display: none;
+	position: fixed;
+}
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
